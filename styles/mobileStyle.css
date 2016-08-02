@@ -1,0 +1,73 @@
+/*Affects All Pages*/
+body {
+	font-family: Arial, "Sans Serif";
+	background-image: url(../images/MobileBackground.png);
+	background-color: #2a2a2a;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: 100%; 
+}
+
+header {
+	position:relative;
+	text-align: center;
+	left: 30px;
+}
+
+/* Overrides JQuery Background which would have override custom background*/
+.ui-body-a {
+	background: none;
+}
+
+.ui-body-b {
+	background: none;
+}
+
+.ui-footer {
+	position: relative;
+	top: 100%;
+}
+
+/*
+/*Options Button in Title Page*/
+#option {
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+/*The Logo in Title Page*/
+#logo {
+	float: left;
+}
+
+#homePage {
+	position: absolute;
+}
+
+/*Start Button in Title Page*/
+#startButton {
+	margin: 10px;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	width: 20%;
+}
+
+#optionButton {
+	margin: 10px;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	width: 20%;
+}
+
+#leaderButton {
+	margin: 10px;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	width: 20%;
+}
+

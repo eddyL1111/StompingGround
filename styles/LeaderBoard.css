@@ -1,0 +1,33 @@
+/* Scoreboard background. */
+#boardBground {
+	background-color: lightgray;
+}
+
+/* Button for adding score. */
+#addPlayerScore {
+	width: 30%;
+	background: orange; 
+	color: white;
+}
+
+#playerInput {
+}
+
+#enterName {
+	width: 50%;
+}
+
+#enterScore {
+	width: 50%;
+}
+
+#playerBoard {
+	list-style-type:none;
+}
+#scoreBoard {
+	list-style-type:none;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
